@@ -25,6 +25,7 @@ This repository contains a curated list of **open-source tools** for **OT (Opera
 - Helps in **network reconnaissance**
 
 📌 **GitHub**: [Redpoint Nmap Scripts](https://github.com/digitalbond/Redpoint)
+
 📌 **Usage**:
 ```bash
 nmap --script modbus-discover,dnp3-info,bacnet-info,s7-info -p 502,20000,47808,102 <TARGET_IP>
@@ -40,6 +41,7 @@ nmap --script modbus-discover,dnp3-info,bacnet-info,s7-info -p 502,20000,47808,1
 - Extracts firmware, model type, and available services
 
 📌 **GitHub**: [PLCScan](https://github.com/Faxm0dem/PLCscan)
+
 📌 **Usage**:
 ```bash
 python3 plcscan.py --ip <TARGET_IP>
@@ -51,6 +53,7 @@ python3 plcscan.py --ip <TARGET_IP>
 📌 **Description**: A **Modbus/TCP device scanner** that identifies Modbus assets and enumerates accessible registers.
 
 📌 **GitHub**: [ModScan](https://github.com/moki-ics/modscan)
+
 📌 **Usage**:
 ```bash
 modscan -t <TARGET_IP> -p 502
@@ -62,6 +65,7 @@ modscan -t <TARGET_IP> -p 502
 📌 **Description**: **Passive ICS network monitoring tool** that maps out OT assets without active scanning.
 
 📌 **GitHub**: [GrassMarlin](https://github.com/nsacyber/GRASSMARLIN)
+
 📌 **Usage**:
 ```bash
 grassmarlin
@@ -75,6 +79,7 @@ grassmarlin
 📌 **Description**: Open-source **penetration testing framework** with **ICS/SCADA exploit modules**.
 
 📌 **GitHub**: [Metasploit](https://github.com/rapid7/metasploit-framework)
+
 📌 **Usage**:
 ```bash
 msfconsole
@@ -87,6 +92,7 @@ use exploit/scada/modbus
 📌 **Description**: A **Python-based ICS exploitation toolkit** similar to Metasploit but focused on **industrial controllers**.
 
 📌 **GitHub**: [ISF](https://github.com/dark-lbp/isf)
+
 📌 **Usage**:
 ```bash
 python3 isf.py
@@ -100,6 +106,7 @@ python3 isf.py
 📌 **Description**: A **Modbus/TCP exploitation toolkit** with scanning and attack modules.
 
 📌 **GitHub**: [ModBusPwn](https://github.com/InfoSec-DB/ModBusPwn)
+
 📌 **Usage**:
 ```bash
 python3 modbuspwn.py --scan <TARGET_IP>
@@ -120,6 +127,7 @@ python3 modbuspwn.py --scan <TARGET_IP>
 📌 **Description**: A **Siemens PLC scanner** that extracts model details and security configurations.
 
 📌 **GitHub**: [S7Scan](https://github.com/SCADAStrangelove)
+
 📌 **Usage**:
 ```bash
 python3 s7scan.py -i <TARGET_IP>
@@ -140,6 +148,7 @@ python3 s7scan.py -i <TARGET_IP>
 📌 **Description**: **Adversary emulation framework** with **pre-built attack scripts** for OT.
 
 📌 **GitHub**: [MITRE Caldera for OT](https://github.com/mitre/caldera-ot)
+
 📌 **Usage**:
 ```bash
 python3 caldera.py
@@ -164,10 +173,6 @@ If you have **new tools** or updates, feel free to submit a **Pull Request**!
 🚨 **For educational and authorized security research purposes only!** Use these tools only on **systems you own or have explicit permission to test.** Misuse may lead to legal consequences. 🚨
 
 ---
-
-## 🛠 Maintainers
-👨‍💻 **[Your Name]** - Contact: [Your Email]
-
 ---
 
 ### 🌟 Star this repo if you found it useful! ⭐
