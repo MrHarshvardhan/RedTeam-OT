@@ -40,7 +40,7 @@ nmap --script modbus-discover,dnp3-info,bacnet-info,s7-info -p 502,20000,47808,1
 - Detects **Siemens S7 PLCs and Modbus devices**
 - Extracts firmware, model type, and available services
 
-📌 **GitHub**: [PLCScan](https://github.com/Faxm0dem/PLCscan)
+📌 **GitHub**: [PLCScan](https://github.com/meeas/plcscan)
 
 📌 **Usage**:
 ```bash
